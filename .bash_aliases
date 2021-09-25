@@ -9,9 +9,17 @@ alias dayLight="redshift -O 5500"
 alias project="cd /media/adventure/precious/projects"
 alias python="python3"
 alias m="youtube-dl --extract-audio  --audio-format \"mp3\" --audio-quality 0 "
-alias y="youtube-dl"
+alias y="youtube-dl "
 alias cl="git clone "
 alias diff="git diff "
 alias show="git show "
 alias log="git log "
-alias l="git log --oneline"
+alias l="git log --graph --oneline"
+alias fa="flutter analyze "
+alias ft="flutter test "
+alias ftc="flutter test --coverage
+genhtml coverage/lcov.info -o coverage/html"
+alias fb='flutter pub get && flutter pub run build_runner build --delete-conflicting-outputs '
+alias fw='flutter pub get && flutter pub run build_runner watch --delete-conflicting-outputs '
+alias p="git push "
+
