@@ -26,4 +26,22 @@ genhtml coverage/lcov.info -o coverage/html"
 alias fb='flutter pub get && flutter pub run build_runner build --delete-conflicting-outputs '
 alias fw='flutter pub get && flutter pub run build_runner watch --delete-conflicting-outputs '
 alias p="git push "
+function saveObsidian() {\
+    cd /Users/laxmanbhattarai/projects/personal/obsidian
+    git pull origin main
+    git add .
+    if [ -z "$1" ]
+    then
+        git commit -m "$(date)"
+    else
+        git commit -m "$1"
+    fi
+    git push
+}
+function ocode() {\
+    cd /Users/laxmanbhattarai/projects/personal/obsidian
+    code .
+}
+alias o="saveObsidian "
+
 
