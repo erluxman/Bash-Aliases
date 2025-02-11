@@ -11,7 +11,7 @@ alias project="cd /media/adventure/precious/projects"
 alias python="python3"
 alias youtube-dl='yt-dlp'
 alias m="youtube-dl --extract-audio  --audio-format \"mp3\" --audio-quality 0 "
-alias y="yt-dlp -f 'bv*[height=1080]+ba' "
+alias y="yt-dlp "
 alias cl="git clone "
 alias diff="git diff "
 alias gch="git checkout "

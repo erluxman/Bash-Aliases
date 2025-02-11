@@ -14,3 +14,4 @@ function bedtime_routine() {
         sudo shutdown -h 23:00
     fi
 }
+bedtime_routine
